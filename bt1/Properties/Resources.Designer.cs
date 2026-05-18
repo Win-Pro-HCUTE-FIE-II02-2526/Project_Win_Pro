@@ -63,6 +63,16 @@ namespace bt1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12_anh_dai_dien_trang_inkythuatso_03_15_27_29 {
+            get {
+                object obj = ResourceManager.GetObject("12-anh-dai-dien-trang-inkythuatso-03-15-27-29", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ảnh_trường {
             get {
                 object obj = ResourceManager.GetObject("ảnh trường", resourceCulture);

@@ -16,6 +16,9 @@ namespace bt1
         public f_AddStudent()
         {
             InitializeComponent();
+            Guna.UI2.WinForms.Guna2ShadowForm shadow = new Guna.UI2.WinForms.Guna2ShadowForm();
+            shadow.SetShadowForm(this);
+
         }
         byte[] studentImage = null;
         private void btnChooseImage_Click(object sender, EventArgs e)
@@ -75,13 +78,24 @@ namespace bt1
             picStudent.Image = null;        
         }
 
-        private void bt_Cancel_Click(object sender, EventArgs e)
+       
+        
+
+        private void btnLogout_Click(object sender, EventArgs e)
         {
-            Close();
+            Globals.ClearSession();
+            Login lg = new Login();
+            lg.Show();
+            this.FormClosed -= f_AddStudent_FormClosed;
+            this.Dispose();
         }
 
         private void f_AddStudent_FormClosed(object sender, FormClosedEventArgs e)
-        {
+        {  
+            if (picStudent.Image != null)
+            {
+                picStudent.Image.Dispose(); // Giải phóng bộ nhớ tránh lỗi Out of memory
+            }
             Application.Exit();
         }
     }

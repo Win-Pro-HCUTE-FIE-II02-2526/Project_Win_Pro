@@ -58,6 +58,19 @@
     <Compile Include="f_AddStudent.Designer.cs">
       <DependentUpon>f_AddStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="f_OTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_OTP.Designer.cs">
+      <DependentUpon>f_OTP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Register.Designer.cs">
+      <DependentUpon>f_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +83,12 @@
     <Compile Include="Student.cs" />
     <EmbeddedResource Include="f_AddStudent.resx">
       <DependentUpon>f_AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_OTP.resx">
+      <DependentUpon>f_OTP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Register.resx">
+      <DependentUpon>f_Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -103,6 +122,7 @@
     <None Include="Resources\Logo_Trường_Đại_Học_Công_nghệ_Kỹ_Thuật_TP_Hồ_Chí_Minh.png" />
     <None Include="Resources\ảnh trường.jpg" />
     <None Include="Images\diem-chuan-truong-dai-hoc-su-pham-ky-thuat-tphcm.png" />
+    <None Include="Images\12-anh-dai-dien-trang-inkythuatso-03-15-27-29.jpg" />
     <Content Include="Images\LOGO_HCMUTE.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

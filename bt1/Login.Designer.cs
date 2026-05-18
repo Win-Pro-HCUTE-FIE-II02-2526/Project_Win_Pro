@@ -31,14 +31,16 @@
             this.txt_UserName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_Password = new Guna.UI2.WinForms.Guna2TextBox();
             this.bt_Login = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picturebox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -53,6 +55,7 @@
             this.txt_UserName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_UserName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_UserName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_UserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_UserName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_UserName.Location = new System.Drawing.Point(36, 73);
             this.txt_UserName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -65,6 +68,7 @@
             // 
             // txt_Password
             // 
+            this.txt_Password.BorderThickness = 2;
             this.txt_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Password.DefaultText = "";
             this.txt_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -73,8 +77,9 @@
             this.txt_Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txt_Password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Password.Location = new System.Drawing.Point(36, 153);
+            this.txt_Password.Location = new System.Drawing.Point(35, 153);
             this.txt_Password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.PasswordChar = '*';
@@ -92,36 +97,12 @@
             this.bt_Login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.bt_Login.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Login.ForeColor = System.Drawing.Color.White;
-            this.bt_Login.Location = new System.Drawing.Point(36, 238);
+            this.bt_Login.Location = new System.Drawing.Point(36, 208);
             this.bt_Login.Name = "bt_Login";
             this.bt_Login.Size = new System.Drawing.Size(425, 41);
             this.bt_Login.TabIndex = 3;
             this.bt_Login.Text = "Login";
             this.bt_Login.Click += new System.EventHandler(this.bt_Login_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label1.Location = new System.Drawing.Point(50, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 22);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Username";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label2.Location = new System.Drawing.Point(50, 167);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 22);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Password";
             // 
             // guna2HtmlLabel1
             // 
@@ -129,15 +110,15 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(200, 15);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(178, 15);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(114, 51);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(174, 57);
             this.guna2HtmlLabel1.TabIndex = 6;
             this.guna2HtmlLabel1.Text = "Login";
             // 
             // picturebox1
             // 
-            this.picturebox1.BackgroundImage = global::bt1.Properties.Resources.Logo_Trường_Đại_Học_Công_nghệ_Kỹ_Thuật_TP_Hồ_Chí_Minh;
+            this.picturebox1.BackColor = System.Drawing.Color.Transparent;
             this.picturebox1.ImageRotate = 0F;
             this.picturebox1.Location = new System.Drawing.Point(662, 25);
             this.picturebox1.Name = "picturebox1";
@@ -149,19 +130,46 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.linkLabel1);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.guna2HtmlLabel1);
             this.panel1.Controls.Add(this.bt_Login);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.txt_UserName);
             this.panel1.Controls.Add(this.txt_Password);
+            this.panel1.Controls.Add(this.txt_UserName);
             this.panel1.Location = new System.Drawing.Point(143, 49);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(495, 362);
             this.panel1.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(115)))), ((int)(((byte)(232)))));
+            this.label2.Location = new System.Drawing.Point(49, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 22);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Password";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(115)))), ((int)(((byte)(232)))));
+            this.label1.Location = new System.Drawing.Point(48, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 22);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Username";
             // 
             // label5
             // 
@@ -193,12 +201,35 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label3.Location = new System.Drawing.Point(178, 297);
+            this.label3.Location = new System.Drawing.Point(175, 330);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(136, 18);
             this.label3.TabIndex = 7;
             this.label3.Text = "Forgot password";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(26)))), ((int)(((byte)(115)))), ((int)(((byte)(232)))));
+            this.label6.Location = new System.Drawing.Point(128, 252);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(174, 22);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Don\'t have an account?";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.Location = new System.Drawing.Point(320, 257);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(58, 16);
+            this.linkLabel1.TabIndex = 11;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Sign Up.";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Login
             // 
@@ -224,14 +255,16 @@
         private Guna.UI2.WinForms.Guna2TextBox txt_UserName;
         private Guna.UI2.WinForms.Guna2TextBox txt_Password;
         private Guna.UI2.WinForms.Guna2Button bt_Login;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         public Guna.UI2.WinForms.Guna2PictureBox picturebox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
