@@ -1,57 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\",
+  "WorkspaceRootPath": "D:\\WP_QLSV\\Project_Win_Pro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|d:\\wp_qlsv\\project_win_pro\\bt1\\f_liststudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_liststudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_liststudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_liststudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|d:\\window_progamming\\phan-mem-quan-ly-sinh-vien_2\\bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_otp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\WP_QLSV\\Project_Win_Pro\\bt1\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,88 +70,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "f_OTP.cs [Design]",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
-              "RelativeDocumentMoniker": "bt1\\f_OTP.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs [Design]",
-              "RelativeToolTip": "bt1\\f_OTP.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T06:56:06.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "f_AddStudent.Designer.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.Designer.cs",
-              "RelativeDocumentMoniker": "bt1\\f_AddStudent.Designer.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.Designer.cs",
-              "RelativeToolTip": "bt1\\f_AddStudent.Designer.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAAAAIBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T02:11:28.05Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "f_AddStudent.cs [Design]",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs",
-              "RelativeDocumentMoniker": "bt1\\f_AddStudent.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs [Design]",
-              "RelativeToolTip": "bt1\\f_AddStudent.cs [Design]",
+              "Title": "f_ListStudent.cs [Design]",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_ListStudent.cs",
+              "RelativeDocumentMoniker": "bt1\\f_ListStudent.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_ListStudent.cs [Design]",
+              "RelativeToolTip": "bt1\\f_ListStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T02:04:50.297Z",
+              "WhenOpened": "2026-05-18T07:25:00.52Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "f_AddStudent.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs",
-              "RelativeDocumentMoniker": "bt1\\f_AddStudent.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs",
-              "RelativeToolTip": "bt1\\f_AddStudent.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "f_ListStudent.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_ListStudent.cs",
+              "RelativeDocumentMoniker": "bt1\\f_ListStudent.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_ListStudent.cs",
+              "RelativeToolTip": "bt1\\f_ListStudent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T02:06:04.847Z",
+              "WhenOpened": "2026-05-18T07:47:37.462Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "f_OTP.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_OTP.cs",
               "RelativeDocumentMoniker": "bt1\\f_OTP.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_OTP.cs",
               "RelativeToolTip": "bt1\\f_OTP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T06:57:42.172Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "f_AddStudent.cs [Design]",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_AddStudent.cs",
+              "RelativeDocumentMoniker": "bt1\\f_AddStudent.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_AddStudent.cs [Design]",
+              "RelativeToolTip": "bt1\\f_AddStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T02:04:50.297Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "f_AddStudent.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_AddStudent.cs",
+              "RelativeDocumentMoniker": "bt1\\f_AddStudent.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_AddStudent.cs",
+              "RelativeToolTip": "bt1\\f_AddStudent.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T02:06:04.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "f_OTP.cs [Design]",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_OTP.cs",
+              "RelativeDocumentMoniker": "bt1\\f_OTP.cs",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs [Design]*",
+              "RelativeToolTip": "..\\..\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T06:56:06.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "f_AddStudent.Designer.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_AddStudent.Designer.cs",
+              "RelativeDocumentMoniker": "bt1\\f_AddStudent.Designer.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_AddStudent.Designer.cs",
+              "RelativeToolTip": "bt1\\f_AddStudent.Designer.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAAAMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T02:11:28.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "f_OTP.Designer.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_OTP.Designer.cs",
               "RelativeDocumentMoniker": "bt1\\f_OTP.Designer.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs",
-              "RelativeToolTip": "bt1\\f_OTP.Designer.cs",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs*",
+              "RelativeToolTip": "..\\..\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs*",
               "ViewState": "AgIAACoAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T17:46:24.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "f_Register.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_Register.cs",
               "RelativeDocumentMoniker": "bt1\\f_Register.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_Register.cs",
               "RelativeToolTip": "bt1\\f_Register.cs",
               "ViewState": "AgIAALEAAAAAAAAAAAAYwKUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,11 +189,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "f_Register.Designer.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.Designer.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_Register.Designer.cs",
               "RelativeDocumentMoniker": "bt1\\f_Register.Designer.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.Designer.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_Register.Designer.cs",
               "RelativeToolTip": "bt1\\f_Register.Designer.cs",
               "ViewState": "AgIAABgBAAAAAAAAAAAYwJwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -163,22 +201,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "f_Register.cs [Design]",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\f_Register.cs",
               "RelativeDocumentMoniker": "bt1\\f_Register.cs",
               "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.cs [Design]",
-              "RelativeToolTip": "bt1\\f_Register.cs [Design]",
+              "RelativeToolTip": "..\\..\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T06:31:19.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Login.Designer.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.Designer.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Login.Designer.cs",
               "RelativeDocumentMoniker": "bt1\\Login.Designer.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.Designer.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Login.Designer.cs",
               "RelativeToolTip": "bt1\\Login.Designer.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,22 +224,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Login.cs",
               "RelativeDocumentMoniker": "bt1\\Login.cs",
               "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.cs [Design]",
-              "RelativeToolTip": "bt1\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T14:13:16.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Login.cs",
               "RelativeDocumentMoniker": "bt1\\Login.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Login.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Login.cs",
               "RelativeToolTip": "bt1\\Login.cs",
               "ViewState": "AgIAADcAAAAAAAAAAIAwwEkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,11 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Globals.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Globals.cs",
+              "DocumentMoniker": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Globals.cs",
               "RelativeDocumentMoniker": "bt1\\Globals.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\Globals.cs",
+              "ToolTip": "D:\\WP_QLSV\\Project_Win_Pro\\bt1\\Globals.cs",
               "RelativeToolTip": "bt1\\Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

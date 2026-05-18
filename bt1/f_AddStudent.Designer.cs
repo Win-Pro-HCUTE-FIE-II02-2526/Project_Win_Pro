@@ -43,6 +43,7 @@ namespace bt1
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.picStudent = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picStudent)).BeginInit();
             this.SuspendLayout();
             // 
@@ -235,10 +236,24 @@ namespace bt1
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.AutoSize = false;
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Navy;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial Narrow", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(849, 108);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(253, 50);
+            this.guna2HtmlLabel1.TabIndex = 14;
+            this.guna2HtmlLabel1.Text = "STUDENT INFORMATION";
+            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // f_AddStudent
             // 
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(810, 490);
+            this.ClientSize = new System.Drawing.Size(1140, 642);
+            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.picStudent);
             this.Controls.Add(this.btnClear);
@@ -280,5 +295,6 @@ namespace bt1
         private Guna.UI2.WinForms.Guna2PictureBox picStudent;
         private Guna.UI2.WinForms.Guna2Button btnLogout;
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }
