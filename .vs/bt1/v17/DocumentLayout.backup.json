@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|d:\\window_progamming\\phan-mem-quan-ly-sinh-vien_2\\bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|d:\\window_progamming\\phan-mem-quan-ly-sinh-vien_2\\bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|solutionrelative:bt1\\f_addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F40F41-F0D5-4A22-ADEA-44F19D71BF80}|bt1\\bt1.csproj|D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_otp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,48 +66,24 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "f_OTP.cs [Design]",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
-              "RelativeDocumentMoniker": "bt1\\f_OTP.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs [Design]",
-              "RelativeToolTip": "bt1\\f_OTP.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T06:56:06.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "f_AddStudent.Designer.cs",
-              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.Designer.cs",
-              "RelativeDocumentMoniker": "bt1\\f_AddStudent.Designer.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.Designer.cs",
-              "RelativeToolTip": "bt1\\f_AddStudent.Designer.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAAAAIBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T02:11:28.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "f_AddStudent.cs [Design]",
               "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs",
               "RelativeDocumentMoniker": "bt1\\f_AddStudent.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs [Design]",
-              "RelativeToolTip": "bt1\\f_AddStudent.cs [Design]",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs [Design]*",
+              "RelativeToolTip": "bt1\\f_AddStudent.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T02:04:50.297Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "f_AddStudent.cs",
               "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs",
               "RelativeDocumentMoniker": "bt1\\f_AddStudent.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs",
-              "RelativeToolTip": "bt1\\f_AddStudent.cs",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.cs*",
+              "RelativeToolTip": "bt1\\f_AddStudent.cs*",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwFYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T02:06:04.847Z",
@@ -115,15 +91,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "f_OTP.cs",
               "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
               "RelativeDocumentMoniker": "bt1\\f_OTP.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
-              "RelativeToolTip": "bt1\\f_OTP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs*",
+              "RelativeToolTip": "bt1\\f_OTP.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T06:57:42.172Z"
+              "WhenOpened": "2026-05-12T06:57:42.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "f_OTP.cs [Design]",
+              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs",
+              "RelativeDocumentMoniker": "bt1\\f_OTP.cs",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.cs [Design]*",
+              "RelativeToolTip": "bt1\\f_OTP.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T06:56:06.045Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "f_AddStudent.Designer.cs",
+              "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.Designer.cs",
+              "RelativeDocumentMoniker": "bt1\\f_AddStudent.Designer.cs",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_AddStudent.Designer.cs*",
+              "RelativeToolTip": "bt1\\f_AddStudent.Designer.cs*",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAAAMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T02:11:28.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -131,11 +133,12 @@
               "Title": "f_OTP.Designer.cs",
               "DocumentMoniker": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs",
               "RelativeDocumentMoniker": "bt1\\f_OTP.Designer.cs",
-              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs",
-              "RelativeToolTip": "bt1\\f_OTP.Designer.cs",
+              "ToolTip": "D:\\Window_Progamming\\Phan-Mem-Quan-Ly-Sinh-Vien_2\\bt1\\f_OTP.Designer.cs*",
+              "RelativeToolTip": "bt1\\f_OTP.Designer.cs*",
               "ViewState": "AgIAACoAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T17:46:24.678Z"
+              "WhenOpened": "2026-05-12T17:46:24.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
