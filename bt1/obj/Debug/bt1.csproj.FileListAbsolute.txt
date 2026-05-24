@@ -45,3 +45,6 @@ D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.exe
 D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.pdb
 D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.f_Register.resources
 D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.f_OTP.resources
+D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.f_ListStudent.resources
+D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.f_Forget.resources
+D:\Window_Progamming\Phan-Mem-Quan-Ly-Sinh-Vien_2\bt1\obj\Debug\bt1.f_Newpass.resources

@@ -86,6 +86,7 @@
             this.btn_Resend.Size = new System.Drawing.Size(160, 45);
             this.btn_Resend.TabIndex = 3;
             this.btn_Resend.Text = "Gửi lại mã";
+            this.btn_Resend.Click += new System.EventHandler(this.btn_Resend_Click);
             // 
             // txt_Code
             // 
