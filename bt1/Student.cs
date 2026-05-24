@@ -57,4 +57,41 @@ public class Student
         catch { return false; }
         finally { db.closeConnection(); }
     }
+    public bool DeleteStudent()
+    {
+        try
+        {
+            // 1. Xóa điểm liên quan trước để tránh lỗi khóa ngoại (Foreign Key)
+            SqlCommand cmd2 = new SqlCommand("DELETE FROM Score WHERE MSSV=@id", db.getConnection);
+            cmd2.Parameters.Add("@id", SqlDbType.Int).Value = MSSV;
+            db.openConnection(); cmd2.ExecuteNonQuery();
+
+            // 2. Xóa đăng ký môn học liên quan
+            SqlCommand cmd1 = new SqlCommand("DELETE FROM DKMH WHERE MSSV=@id", db.getConnection);
+            cmd1.Parameters.Add("@id", SqlDbType.Int).Value = MSSV;
+            cmd1.ExecuteNonQuery();
+
+            // 3. Xóa thông tin sinh viên chính thức
+            SqlCommand cmd = new SqlCommand("DELETE FROM Student WHERE MSSV=@id", db.getConnection);
+            cmd.Parameters.Add("@id", SqlDbType.Int).Value = MSSV;
+            bool ok = cmd.ExecuteNonQuery() == 1;
+            return ok;
+        }
+        catch { return false; }
+        finally { db.closeConnection(); }
+    }
+    public static DataTable GetStudents()
+    {
+        My_DB db = new My_DB();
+        DataTable dt = new DataTable();
+        try
+        {
+            db.openConnection();
+            string query = "SELECT MSSV, Fname, Lname, Dob, Gder, Phone, Address, Htown, Email FROM Student";
+            SqlDataAdapter adapter = new SqlDataAdapter(query, db.conn);
+            adapter.Fill(dt);
+        }
+        finally { db.closeConnection(); }
+        return dt;
+    }
 }

@@ -11,72 +11,96 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Net.WebRequestMethods;
+using System.Text.RegularExpressions;
 
 namespace bt1
 {
     public partial class f_Register : Form
     {
+        private int position;
+
         public f_Register()
         {
             InitializeComponent();
         }
-        // 1. Khai báo biến lưu vị trí (1 = Student, 2 = HR)
-        private int position;
 
-        // 2. Sửa hàm khởi tạo để nhận tham số từ f_Login truyền sang
         public f_Register(int pos)
         {
             InitializeComponent();
             this.position = pos;
         }
 
-       
         private void bt_Register_Click(object sender, EventArgs e)
         {
-            if (existUser())         
+            // 1. Kiểm tra điền trống dữ liệu trước
+            if (!verif())
             {
-                if (existEmail())    
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin và chọn ảnh!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 2. Kiểm tra độ mạnh mật khẩu bằng Regex [Nâng cao]
+            if (!IsStrongPassword(txb_Pass.Text))
+            {
+                MessageBox.Show("Mật khẩu phải chứa ít nhất 8 ký tự, bao gồm ít nhất 1 chữ hoa, 1 số và 1 ký tự đặc biệt!", "Mật khẩu yếu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txb_Pass.Focus();
+                return;
+            }
+
+            // 3. Kiểm tra tính duy nhất của Username
+            if (!existUser())
+            {
+                MessageBox.Show("Tên Tài Khoản Đã Tồn Tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txb_User.Focus();
+                return;
+            }
+
+            // 4. Kiểm tra tính duy nhất của Email
+            if (!existEmail())
+            {
+                MessageBox.Show("Email Đã Tồn Tại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txb_Email.Focus();
+                return;
+            }
+
+            // 5. Nếu mọi điều kiện thỏa mãn -> Tiến hành gửi OTP
+            string generatedOTP = sendOTP(txb_Email.Text);
+
+            if (generatedOTP != null)
+            {
+                f_OTP otpForm = new f_OTP(generatedOTP, txb_Email.Text);
+                this.Hide(); // Ẩn Form đăng ký đi
+
+                if (otpForm.ShowDialog() == DialogResult.OK) // Người dùng nhập đúng OTP
                 {
-                    if (verif())    
+                    if (Register())
                     {
-                        string generatedOTP = sendOTP(txb_Email.Text);
+                        MessageBox.Show("Đăng Ký Thành Công. Vui lòng chờ Admin duyệt tài khoản!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        if (generatedOTP != null)
-                        {
-                            f_OTP otp = new f_OTP(generatedOTP);
-                            //otp.receivedOTP = txb_Email.Text;
-                            this.Hide();
-                            if (otp.ShowDialog() == DialogResult.OK)  // OTP đúng
-                            {
-                                if (Register())
-                                {
-                                    MessageBox.Show("Đăng Ký Thành Công.", "Thông báo");
-                                }
+                        // Gỡ bỏ sự kiện hỏi thoát Form để đóng an toàn
+                        this.FormClosing -= f_Register_FormClosing;
+                        this.Close(); // Đóng hoàn toàn Form đăng ký thành công
 
-                                else
-                                    MessageBox.Show("Lỗi trong quá trình thao tác Database", "Lỗi");
-                            }
-                            this.Show();
-                        }
+                        return; // THÊM LỆNH NÀY: Kết thúc hàm ngay lập tức, bỏ qua hoàn toàn lệnh this.Show() ở dưới!
                     }
                     else
                     {
-                        MessageBox.Show("Vui lòng điền đầy đủ thông tin và chọn ảnh!", "Cảnh báo");
+                        MessageBox.Show("Lỗi trong quá trình thao tác Database!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Show(); // Nếu lỗi database thì hiện lại Form đăng ký để chỉnh sửa thông tin
                     }
                 }
                 else
-                    MessageBox.Show("Email Đã Tồn Tại!");
+                {
+                    // Người dùng bấm Hủy bỏ OTP hoặc tắt Form OTP nửa chừng
+                    this.Show(); // Hiện lại Form đăng ký cho người dùng
+                }
             }
-            else
-                MessageBox.Show("Tên Tài Khoản Đã Tồn Tại!");
         }
 
-        // Hàm xử lý chọn ảnh (Bạn cần có nút btn_ChooseImage)
         private void ptb_Picture_Click(object sender, EventArgs e)
         {
             OpenFileDialog opnfd = new OpenFileDialog();
-            opnfd.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;*.png)|*.jpg;*.jpeg;.*.gif;*.png";
+            opnfd.Filter = "Image Files (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
             if (opnfd.ShowDialog() == DialogResult.OK)
             {
                 ptb_Picture.Image = new Bitmap(opnfd.FileName);
@@ -91,15 +115,15 @@ namespace bt1
             ptb_Picture.Image.Save(picture, ptb_Picture.Image.RawFormat);
 
             SqlCommand command;
-            // Tùy position chọn INSERT vào Login hay HR
-            if (rbt_Role.Checked)
+            // Tùy theo bảng lựa chọn để ánh xạ chuẩn cấu trúc dữ liệu của bạn
+            if (!rbt_Role.Checked)
                 command = new SqlCommand(
-                    "INSERT INTO HR (MSGV,Fname,Lname,Position,Username,Pass,Email,Pic,Valid) " +
-                    "VALUES (@id,@fn,@ln,@pos,@user,@pass,@email,@pic,@val)", my_db.getConnection);
+                    "INSERT INTO HR (MSGV, Fname, Lname, Position, Username, Password, Email, Pic, Valid) " +
+                    "VALUES (@id, @fn, @ln, @pos, @user, @pass, @email, @pic, @val)", my_db.getConnection);
             else
                 command = new SqlCommand(
-                    "INSERT INTO Login (ID,Fname,Lname,Position,Username,Pass,Email,Pic,Valid) " +
-                    "VALUES (@id,@fn,@ln,@pos,@user,@pass,@email,@pic,@val)", my_db.getConnection);
+                    "INSERT INTO Login (Id, Fname, Lname, Position, Username, Password, Email, Pic, Valid) " + // Sửa ID thành Id cho đồng bộ bảng Login
+                    "VALUES (@id, @fn, @ln, @pos, @user, @pass, @email, @pic, @val)", my_db.getConnection);
 
             command.Parameters.Add("@id", SqlDbType.Int).Value = int.Parse(txb_ID.Text);
             command.Parameters.Add("@fn", SqlDbType.NVarChar).Value = txb_Fname.Text;
@@ -109,54 +133,53 @@ namespace bt1
             command.Parameters.Add("@pass", SqlDbType.VarChar).Value = txb_Pass.Text;
             command.Parameters.Add("@email", SqlDbType.VarChar).Value = txb_Email.Text;
             command.Parameters.Add("@pic", SqlDbType.Image).Value = picture.ToArray();
-            command.Parameters.Add("@val", SqlDbType.Int).Value = 0;  // Chờ duyệt
+            command.Parameters.Add("@val", SqlDbType.Int).Value = 0; // VALID = 0: Chờ duyệt [cite: 6]
 
             my_db.openConnection();
             bool result = command.ExecuteNonQuery() == 1;
             my_db.closeConnection();
             return result;
         }
-        
+
+        // Tối ưu hóa truy vấn bằng Subquery để loại bỏ Cross Join làm chậm DB
         bool existUser()
         {
             My_DB my_db = new My_DB();
             SqlCommand cmd = new SqlCommand(
-                "SELECT Count(*) FROM Login,HR WHERE Login.Username LIKE @user OR HR.Username LIKE @user",
+                "SELECT (SELECT Count(*) FROM Login WHERE Username = @user) + (SELECT Count(*) FROM HR WHERE Username = @user)",
                 my_db.getConnection);
             cmd.Parameters.Add("@user", SqlDbType.NVarChar).Value = txb_User.Text.Trim();
-            my_db.openConnection();
-            bool exists = (int)cmd.ExecuteScalar() > 0;
-            my_db.closeConnection();
-            return !exists;   // true = chưa tồn tại (được dùng)
-        }
 
-        // Tự viết thêm hàm kiểm tra Email
-        bool existEmail()
-        {
-            My_DB my_db = new My_DB();
-            SqlCommand cmd = new SqlCommand(
-                "SELECT Count(*) FROM Login,HR WHERE Login.Email LIKE @email OR HR.Email LIKE @email",
-                my_db.getConnection);
-            cmd.Parameters.Add("@email", SqlDbType.NVarChar).Value = txb_Email.Text.Trim();
             my_db.openConnection();
             bool exists = (int)cmd.ExecuteScalar() > 0;
             my_db.closeConnection();
             return !exists;
         }
 
-        // Tự viết thêm hàm kiểm tra nhập liệu
+        bool existEmail()
+        {
+            My_DB my_db = new My_DB();
+            SqlCommand cmd = new SqlCommand(
+                "SELECT (SELECT Count(*) FROM Login WHERE Email = @email) + (SELECT Count(*) FROM HR WHERE Email = @email)",
+                my_db.getConnection);
+            cmd.Parameters.Add("@email", SqlDbType.NVarChar).Value = txb_Email.Text.Trim();
+
+            my_db.openConnection();
+            bool exists = (int)cmd.ExecuteScalar() > 0;
+            my_db.closeConnection();
+            return !exists;
+        }
+
         bool verif()
         {
-            if (txb_ID.Text.Trim() == "" || txb_Fname.Text.Trim() == "" ||
-                txb_Lname.Text.Trim() == "" || txb_User.Text.Trim() == "" ||
-                txb_Pass.Text.Trim() == "" || txb_Email.Text.Trim() == "" ||
-                ptb_Picture.Image == null)
-            {
-                return false;
-            }
-            return true;
+            return !(string.IsNullOrWhiteSpace(txb_ID.Text) || string.IsNullOrWhiteSpace(txb_Fname.Text) ||
+                     string.IsNullOrWhiteSpace(txb_Lname.Text) || string.IsNullOrWhiteSpace(txb_User.Text) ||
+                     string.IsNullOrWhiteSpace(txb_Pass.Text) || string.IsNullOrWhiteSpace(txb_Email.Text) ||
+                     ptb_Picture.Image == null);
         }
-        string sendOTP(string targetEmail)
+
+        // Đổi phạm vi thành public/internal để Form OTP có thể gọi lại khi nhấn "Gửi lại"
+        public string sendOTP(string targetEmail)
         {
             Random rand = new Random();
             string otpCode = rand.Next(100000, 999999).ToString();
@@ -165,10 +188,10 @@ namespace bt1
             {
                 var fromAddress = new MailAddress("duongduyvinh206@gmail.com", "Hệ Thống Quản Lý");
                 var toAddress = new MailAddress(targetEmail);
-                string fromPassword = "bsxxalktelewxuwo"; // Mật khẩu ứng dụng bạn vừa lấy
+                string fromPassword = "bsxxalktelewxuwo";
 
-                string subject = "Mã xác thực đăng ký";
-                string body = $"Mã OTP của bạn là: {otpCode}";
+                string subject = "Mã xác thực đăng ký tài khoản";
+                string body = $"Mã OTP xác thực của bạn là: {otpCode}\nLưu ý: Mã này chỉ có hiệu lực trong vòng 5 phút.";
 
                 var smtp = new SmtpClient
                 {
@@ -188,21 +211,21 @@ namespace bt1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi gửi Email: " + ex.Message);
+                MessageBox.Show("Lỗi gửi Email: " + ex.Message, "Lỗi mạng");
                 return null;
             }
         }
 
         private void f_Register_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát đăng ký không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.No)
             {
-                e.Cancel = true; // Hủy bỏ lệnh đóng, Form sẽ giữ nguyên
+                e.Cancel = true;
             }
             else
             {
+                this.FormClosing -= f_Register_FormClosing;
                 Application.Exit();
             }
         }
@@ -213,6 +236,12 @@ namespace bt1
             {
                 ptb_Picture.Image.Dispose();
             }
+        }
+
+        bool IsStrongPassword(string password)
+        {
+            string pattern = @"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"; 
+            return Regex.IsMatch(password, pattern);
         }
     }
 }

@@ -43,6 +43,7 @@ namespace bt1
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.picStudent = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
+            this.bt_Search = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.picStudent)).BeginInit();
             this.SuspendLayout();
             // 
@@ -235,10 +236,26 @@ namespace bt1
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
+            // bt_Search
+            // 
+            this.bt_Search.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.bt_Search.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.bt_Search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.bt_Search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.bt_Search.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bt_Search.ForeColor = System.Drawing.Color.White;
+            this.bt_Search.Location = new System.Drawing.Point(202, 415);
+            this.bt_Search.Name = "bt_Search";
+            this.bt_Search.Size = new System.Drawing.Size(180, 45);
+            this.bt_Search.TabIndex = 14;
+            this.bt_Search.Text = "Tìm kiếm Sinh Viên";
+            this.bt_Search.Click += new System.EventHandler(this.bt_Search_Click);
+            // 
             // f_AddStudent
             // 
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(810, 490);
+            this.Controls.Add(this.bt_Search);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.picStudent);
             this.Controls.Add(this.btnClear);
@@ -280,5 +297,6 @@ namespace bt1
         private Guna.UI2.WinForms.Guna2PictureBox picStudent;
         private Guna.UI2.WinForms.Guna2Button btnLogout;
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
+        private Guna.UI2.WinForms.Guna2Button bt_Search;
     }
 }

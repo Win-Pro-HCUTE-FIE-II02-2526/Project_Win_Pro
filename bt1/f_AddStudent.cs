@@ -98,5 +98,12 @@ namespace bt1
             }
             Application.Exit();
         }
+
+        private void bt_Search_Click(object sender, EventArgs e)
+        {
+            f_ListStudent ls = new f_ListStudent();
+            ls.Show();
+            this.Hide();
+        }
     }
 }
